@@ -1,0 +1,21 @@
+{
+  "name": "ChuckyVsTheGiantTortoise",
+  "version": "0.0.1",
+  "description": "Some graph examples with Meteor and React",
+  "author": "Idraki Muhamad",
+  "license": "WTFPL",
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "highcharts": "^5.0.0",
+    "meteor-node-stubs": "~0.2.0",
+    "moment": "^2.14.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-router": "^2.6.0",
+    "rebass": "^0.3.0",
+    "reflexbox": "^2.1.0"
+  }
+}
