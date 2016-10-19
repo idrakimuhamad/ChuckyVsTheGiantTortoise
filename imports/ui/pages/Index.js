@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Highcharts from 'highcharts';
-import { Heading, Container } from 'rebass';
+import { Heading, Container, Base } from 'rebass';
 import { Flex } from 'reflexbox';
 
 const colors = [ '#E91E63', '#2196F3' ];
@@ -79,7 +79,7 @@ export class Index extends Component {
                 $(e.target).addClass('selected');
               } else {
                 $(e.target).remove('selected');
-              }              
+              }
             }
           }
         }]

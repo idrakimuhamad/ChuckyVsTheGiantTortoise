@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { browserHistory } from 'react-router';
+import { browserHistory, Link } from 'react-router';
 import { Base } from 'rebass';
+import { Footer } from '../components/Footer';
 
 export class MainLayout extends Component {
   constructor(props) {
@@ -15,8 +16,13 @@ export class MainLayout extends Component {
       <div className="container">
         <div className="app-wrapper">
           <div className="inner-app">
-            {this.props.children}
+            <Base
+              px={2}
+              py={4}>
+              {this.props.children}
+            </Base>
           </div>
+          <Footer />
         </div>
       </div>
     );
