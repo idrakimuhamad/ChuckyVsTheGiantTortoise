@@ -1,4 +1,4 @@
-# Sample Meteor + React
+# Sample Meteor + React with Highcharts
 
 ## Get started
 
