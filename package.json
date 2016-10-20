@@ -4,6 +4,7 @@
   "description": "Some graph examples with Meteor and React",
   "author": "Idraki Muhamad",
   "license": "WTFPL",
+  "repositories": "https://github.com/idrakimuhamad/ChuckyVsTheGiantTortoise/",
   "scripts": {
     "start": "meteor run"
   },
