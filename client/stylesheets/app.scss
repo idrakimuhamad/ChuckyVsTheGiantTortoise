@@ -29,11 +29,17 @@ body,
   // overflow: hidden;
 }
 
-.highcharts-point-select {
-  stroke: rgba(0,0,0, .55);
-  stroke-width: 10;
-  stroke-opacity: .25;
+// we hide the halo to immitate like we are disabling halo
+// while actually its there, cuz we need to use it for selected state
+.highcharts-halo {
+  display: none;
 }
+
+// .highcharts-point-select {
+//   stroke: rgba(0,0,0, .55);
+//   stroke-width: 10;
+//   stroke-opacity: .25;
+// }
 
 .inner-content {
   width: 100%;
