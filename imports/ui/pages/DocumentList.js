@@ -34,7 +34,7 @@ export class DocumentList extends Component {
             <Heading
               level={1}
               mb={2}
-              children="Yearly"
+              children={this.state.year + ' Documents'}
               />
             <div className="inner-content">
               <DocumentYearList
