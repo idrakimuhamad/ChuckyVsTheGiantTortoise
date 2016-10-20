@@ -28,7 +28,7 @@ export const AddDocument = (props) => {
         <div>
           <Checkbox
             checked={props.isActive}
-            onClick={props.handleCheck}
+            onChange={props.handleCheck}
             label="Active"
             name="active"
             theme="success"
